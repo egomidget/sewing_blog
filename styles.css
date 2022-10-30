@@ -66,9 +66,18 @@ a:hover {
     width: 15%;
 }
 
+.column.left p {
+    color: white;
+}
+
 .column.right {
     width: 15%;
 }
+
+.column.right p {
+    color: white;
+}
+
 
   
 /* Clear floats after the columns */
@@ -91,4 +100,26 @@ a:hover {
     background-color: #72624f;
     padding: 20px;
     margin-top: 20px;
+}
+
+.blog-card-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: antiquewhite;
+
+}
+
+.blog-card-title:hover {
+    text-decoration: line-through;
+    color: #36332b;
+    
+}
+.blog-img{
+    padding: 20px;
+    float: left;
+}
+
+.blog-img img {
+    width: 100%;
+    height: auto;
 }
