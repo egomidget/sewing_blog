@@ -14,10 +14,18 @@
         </div>
         
         <div class="nav-container">
-            <a class="page-link-1" href="">Home</a>
-            <a class="page-link-1" href="./pages/blog.html">Blog</a>
-            <a class="page-link-1" href="">Sewing</a>
-            <a class="page-link-1" href="./pages/contact.html">Contact</a>
+            <div class="page-link-1">
+                <a class="page-link-1" href="">Home</a>
+
+                <div class="dropdown">
+                    <a class= "page-link-1" href="./pages/blog.html">Blog</a>
+                    <div class="dropdown-content">
+                        <a href="./pages/blog.html">Recent Post</a>
+                    </div>
+                  </div>
+                <a class="page-link-1" href="">Sewing</a>
+                <a class="page-link-1" href="./pages/contact.html">Contact</a>
+            </div>
         </div>
     </body>
 </html>
