@@ -48,7 +48,7 @@ a:hover {
 .title {
     font-weight: 900;
     text-align: center;
-    font-size: 70px;
+    font-size: 400%;
 }
 
 /* uniform column design */
@@ -78,6 +78,17 @@ a:hover {
     color: white;
 }
 
+.column.percent40 {
+    width: 40%;
+}
+
+.column.percent60 {
+    width: 60%;
+}
+
+.column.percent50 {
+    width: 50%;
+}
 
   
 /* Clear floats after the columns */
@@ -122,4 +133,17 @@ a:hover {
 .blog-img img {
     width: 100%;
     height: auto;
+}
+
+/* contact profile */
+
+.profile-picture {
+    padding: 20px;
+    float: left;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
