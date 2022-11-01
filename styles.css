@@ -90,6 +90,10 @@ a:hover {
     width: 50%;
 }
 
+.column.percent33 {
+    width: 33.3%;
+}
+
   
 /* Clear floats after the columns */
 .row:after {
@@ -105,12 +109,17 @@ a:hover {
     }
 }
 
+
 /* blog cards */
 
 .blog-card{
     background-color: #72624f;
     padding: 20px;
     margin-top: 20px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
 }
 
 .blog-card-title{
@@ -131,8 +140,10 @@ a:hover {
 }
 
 .blog-img img {
+    aspect-ratio: 1/1;
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 /* contact profile */
